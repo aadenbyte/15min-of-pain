@@ -41,6 +41,33 @@ section {
   float: left;
 }
 
+@media screen and (max-width: 400px) {
+  section {
+    background: purple;
+  }
+
+  header, footer {
+    background: pink;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 999px) {
+  section {
+    background: orange;
+  }
+  header, footer {
+    background: blue;
+  }
+}
+
+@media (min-width: 1000px) {
+  section {
+    background: red;
+  }
+  header, footer {
+    background: plum;
+  }
+}
 
 /******************************************
 /* ADDITIONAL STYLES
